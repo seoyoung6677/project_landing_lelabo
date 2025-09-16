@@ -1,0 +1,43 @@
+#wrap {
+    height:100vh;
+}
+#wrap .swiper-wrapper {}
+#wrap .swiper-wrapper .swiper-slide.intro {}
+#wrap .swiper-wrapper .swiper-slide.intro  .logo-txt {}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .video-wrap{
+    position:relative;
+    display: inline-block;
+    
+}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .video-wrap video{
+   width:100vw;
+   display: block;
+   height:100vh;
+}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .logo-txt {
+    position:absolute;
+    top:253px;
+    right:59px;
+}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .logo-txt > * {
+    color:#ccc;
+    font-family: "Arapey", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .logo-txt h1 {}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .logo-txt p {
+    font-size: 2.188rem;
+}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .logo-txt span {
+    margin-top:43px;
+    display: inline-block;
+    font-size: 1.25rem;
+}
+#wrap .swiper-wrapper .swiper-slide.intro  .hero .logo-txt button {
+    margin-top:254px ;
+    font-size: 1.75rem;
+    border:1px solid #fff;
+    padding:20px;
+    
+}
