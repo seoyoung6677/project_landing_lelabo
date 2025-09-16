@@ -92,3 +92,36 @@ html, body{
 #wrap .swiper-wrapper .swiper-slide.brand-story .text p:first-child {
     font-size: 1.75rem;
 }
+
+ /* 4행=============================== */
+.perfume_card {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.swiper-slide.perfume_card2 .perfume_card,
+.swiper-slide.perfume_card4 .perfume_card {
+    flex-direction: row-reverse;
+}
+
+.swiper-slide.perfume_card1 .image_card img {
+    
+}
+.swiper-slide {
+    height:100vh;
+}
+/* 반반 */
+.perfume_card .image_card,
+.perfume_card .text-box {
+    flex: 1 1 50%;
+    height:100vh;
+}
+
+.perfume_card .image_card img {
+    width:100%;
+    height:100%;
+    display: block;
+    border:2px solid blue;
+    object-fit: cover;
+    
+}
